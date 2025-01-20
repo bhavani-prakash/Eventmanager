@@ -64,8 +64,37 @@ img {
 	border-radius:5px;
 }
 
-iframe {
-  width: 100%;
-  height: 500px; /* Adjust as needed */
-  border: none;
+@media screen and (min-width: 480px)
+{
+  body {
+    background-color:#bfd8f2;
+        }
+  img {
+    width: 600px;
+    height: 160px; 
+     }	
+   .container figure:hover  {
+	box-shadow:0 0 14px black;
+	}
+   .heading{
+	   background-color: rgba(0, 0, 255, 0.2); /*blue colour with 80% transparent  */ 
+	   width:350px;
+   }
+   .para {  
+	padding-top:5px;
+        }
+    .para p {
+	font-size:18px;
+	 color: white;
+    }
+    .madeby p {
+	font-size:18px;
+	 color: white;
+     }
+    
+
+	
 }
+
+
+ 
